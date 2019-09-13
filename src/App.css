@@ -1,4 +1,4 @@
-.App {
+/* .App {
   text-align: center;
 }
 
@@ -30,4 +30,75 @@
   to {
     transform: rotate(360deg);
   }
+} */
+
+@font-face {
+  font-family: 'Starjedi';
+  font-style: normal;
+  src: url('/fonts/Starjedi.ttf') format('truetype');
+}
+
+@font-face {
+  font-family: 'SerGothic';
+  font-style: normal;
+  src: url('/fonts/itc-serif-gothic-extra-bold-588cef7e1f5d9.otf') format('truetype');  
+}
+
+.navbar-brand {
+  font-family: 'SerGothic';
+  text-transform: uppercase;
+}
+
+.navbar-brand:hover {
+    text-shadow: -1px -1px 1px red, 1px -1px 1px red, -1px 1px 1px red, 1px 1px 1px red;
+}
+
+.Starjedi {
+  font-family: 'Starjedi';
+  font-size: 20vh;
+  color: black;
+  text-align:center;
+  text-shadow: -3px -3px 3px gold, 3px -3px 3px gold, -3px 3px 3px gold, 3px 3px 3px gold;
+}
+
+
+.SerGothic {
+  font-family: 'SerGothic';
+  font-size: 7vh;
+  text-align: center;
+  color: white;
+  text-shadow: -1px -1px 1px #333, 1px -1px 1px #333, -1px 1px 1px #333, 1px 1px 1px #333;
+}
+
+.sin-espacio {
+  margin: 0%;
+  padding: 0%;
+}
+
+.bottom {
+  margin-bottom: -40px;
+}
+
+.top{
+  margin-top: -60px;
+}
+
+.card-title {
+  text-transform: uppercase;
+  font-family: 'SerGothic';
+}
+.sub-sw {
+  text-transform: uppercase;
+  font-family: 'SerGothic';
+}
+
+.pequenya {
+  width: 25%;
+}
+
+.title-sw{
+  font-family: 'Starjedi'; 
+  text-transform: lowercase;
+  color: black;
+  text-shadow: -3px -3px 3px gold, 3px -3px 3px gold, -3px 3px 3px gold, 3px 3px 3px gold;
 }
